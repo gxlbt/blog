@@ -21,6 +21,8 @@ public class User {
     private String nickname;
     private String username;
     private String password;
+    private String email;
+    private String avatar;
     private Integer type;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
